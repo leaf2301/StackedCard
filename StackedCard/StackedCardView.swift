@@ -160,7 +160,7 @@ class StackedCardsView: UIView {
         // Animate all simultaneously
         UIView.animate(withDuration: 0.3, delay: 0, options: [.curveEaseInOut], animations: {
             // Current card out to the right
-            currentCard.alpha = 0
+            currentCard.alpha = 1
             currentCard.transform = CGAffineTransform(translationX: self.bounds.width, y: 0)
             
             // Previous card to top position
